@@ -2,4 +2,4 @@
 #stampi tutta la parola con un carattere ? al posto della terza lettera
 
 parola=input("Dimmi una parola: ")
-print(parola[:3], "?", parola[4:])
+print(f"{parola[:3]} {'?'} {parola[4:]}")
