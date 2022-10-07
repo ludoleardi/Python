@@ -1,3 +1,2 @@
 parola = input("Inserisci il tuo nome: ")
-parola[1::] = '*'
-print(parola)
+print(parola[0] + "*"*(len(parola)-1))
