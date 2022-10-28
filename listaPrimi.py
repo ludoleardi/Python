@@ -5,10 +5,6 @@ def isPrimoBis(x):
         
     return True
 
-list = []
-
-for i in range(1, 101):
-    if isPrimoBis(i):
-        list.append(i)
-
+n = 100
+list = [i for i in range(2, n) if isPrimoBis(i)] ##list comprehension con filtro
 print(list)

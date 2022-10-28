@@ -1,6 +1,4 @@
-from ctypes.wintypes import SMALL_RECT
 import tkinter as tk
-from unittest import registerResult
 
 # convertitore binario - decimale
 
@@ -128,7 +126,7 @@ def main():
     reteFin.pack()
     rangeFin.pack()
     subnetFin.config(text = f"Subnet mask: {list2string(smDec)} /{cidr}")
-    reteFin.config(text = f"IP di rete: {list2string(broadcastDec)}")
+    reteFin.config(text = f"IP di broadcast: {list2string(broadcastDec)}")
     rangeFin.config(text = f"IP utili: {list2string(primoDec)} >> {list2string(ultimoDec)}")
 
 ###############################################################################################################################
