@@ -1,0 +1,7 @@
+forward, 100
+right, 90
+forward, 300
+left, 60
+forward, 25
+right, 90
+backwards, 130

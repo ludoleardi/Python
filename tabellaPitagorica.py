@@ -1,0 +1,1 @@
+tabella = [[numero * indice for numero in range(1, 11)] for indice in range(1, 11)]
